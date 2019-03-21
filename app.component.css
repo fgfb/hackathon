@@ -1,0 +1,44 @@
+.align-left{
+  margin-left: 600px;
+}
+
+.bg-img {
+  background-image: url("https://static.yourparkingspace.co.uk/large/e56a96caa596267c683bf5a9a7cf941e.jpeg");
+  height: 625px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+font-size: -webkit-xxx-large !important;
+    font-style: oblique !important;
+    font-family: cursive !important;
+    color: antiquewhite !important;
+    padding-top: 130px !important;
+    margin-left: 240px !important;
+} 
+
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-left: 500px;
+      margin-top: 10px;
+}
+
+input[type=text]:focus {
+  width: 30%;
+}
+
